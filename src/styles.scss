@@ -37,8 +37,8 @@ ul{
         justify-content: space-between;
 
         &-image{
-            max-width: fit-content;
             max-height: 80%;
+            object-fit: contain;
         }
 
         &-name{

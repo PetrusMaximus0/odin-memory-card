@@ -1,15 +1,18 @@
 /* eslint-disable react/prop-types */
 
-export default function Card({ imageSrc, name, callback }) {
+export default function Card({ pokemon, callback }) {
 	return (
 		<li>
-			<button onClick={callback} className="gameboard-card">
+			<button
+				onClick={() => callback(pokemon.name)}
+				className="gameboard-card"
+			>
 				<img
 					className="gameboard-card-image"
-					src={imageSrc}
+					src={pokemon.src}
 					alt="An image"
 				/>
-				<p className="gameboard-card-name">{name}</p>
+				<p className="gameboard-card-name">{pokemon.name}</p>
 			</button>
 		</li>
 	);
