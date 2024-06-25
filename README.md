@@ -1,8 +1,8 @@
-# React + Vite
+# Memory Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A solution for the project assignment Memory Card from [The Odin Project](https://www.theodinproject.com/lessons/node-path-react-new-memory-card).
 
-Currently, two official plugins are available:
+Built with Vite and React, consumes the [PokéApi](https://pokeapi.co/) API for the play cards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Website
+[https://odin-memory-card-3fz.pages.dev/](https://odin-memory-card-3fz.pages.dev/)
